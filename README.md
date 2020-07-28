@@ -24,5 +24,5 @@ Este repositório contém uma  Aplicação Rest em Java utilizando JPA. O sistem
   </ul>
 
 <h1>Conceitos</h1>
-Foram utilizados conceitos JPA, Orientação a Objetos, Entity Manager, Tratamento de Excessões, Delegação de Serviços, Injeção de dependência, Banco de dados MySQL, Hibernate.
+Foram utilizados conceitos JPA, Orientação a Objetos, Entity Manager, Tratamento de Exceções, Delegação de Serviços, Injeção de dependência, Banco de dados MySQL, Hibernate.
 
