@@ -1,6 +1,6 @@
 # Loja
 
-Este repositório contém uma  Aplicação Rest em Java utilizando JPA. O sistema faz o controle de Pedidos, Categorias e Clientes. Foram implementados o CRUD para cada domínio.
+Este repositório contém uma  Aplicação Rest em Java utilizando JPA e Spring Boot. O sistema faz o controle de Pedidos, Categorias e Clientes. Foram implementados o CRUD para cada domínio.
 
 <h1>Pré-Requisito</h1>
   <ul>
