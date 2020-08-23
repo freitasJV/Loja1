@@ -1,6 +1,6 @@
 # Loja
 
-Este repositório contém uma  Aplicação Rest em Java utilizando JPA e Spring Boot. O sistema faz o controle de Pedidos, Categorias e Clientes. Foram implementados o CRUD para cada domínio.
+Este repositório contém uma  Aplicação Rest em Java utilizando JPA. O sistema faz o controle de Pedidos, Categorias e Clientes. Foram implementados o CRUD para cada domínio.
 
 <h1>Pré-Requisito</h1>
   <ul>
@@ -24,5 +24,5 @@ Este repositório contém uma  Aplicação Rest em Java utilizando JPA e Spring 
   </ul>
 
 <h1>Conceitos</h1>
-Foram utilizados conceitos JPA, Orientação a Objetos, Entity Manager, Tratamento de Exceções, Delegação de Serviços, Injeção de dependência, Banco de dados MySQL, Hibernate.
+Foram utilizados conceitos JPA, Orientação a Objetos, Entity Manager, Tratamento de Exceções, Delegação de Serviços, Injeção de dependência, Banco de dados MySQL, Hibernate,  Spring Boot.
 
