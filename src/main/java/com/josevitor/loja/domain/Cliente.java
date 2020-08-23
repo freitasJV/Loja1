@@ -28,20 +28,20 @@ public class Cliente implements Serializable {
 	private String email;
 	private String cpfCnpj;
 	private Integer tipo;
-	
+
 	@OneToMany(mappedBy = "cliente")
 	private List<Endereco> enderecos = new ArrayList<>();
-	
+
 	@ElementCollection
-	@CollectionTable(name="TELEFONE")
+	@CollectionTable(name = "TELEFONE")
 	private Set<String> telefones = new HashSet<>();
-	
+
 	@JsonIgnore
 	@OneToMany(mappedBy = "cliente")
 	private List<Pedido> pedidos = new ArrayList<>();
-	
+
 	public Cliente() {
-		
+
 	}
 
 	public Cliente(Integer id, String nome, String email, String cpfCnpj, TipoCliente tipo) {
@@ -50,7 +50,7 @@ public class Cliente implements Serializable {
 		this.nome = nome;
 		this.email = email;
 		this.cpfCnpj = cpfCnpj;
-		this.tipo = tipo.getCod();
+		this.tipo = tipo == null ? null : tipo.getCod();
 	}
 
 	public Integer getId() {
@@ -108,7 +108,7 @@ public class Cliente implements Serializable {
 	public void setTelefones(Set<String> telefones) {
 		this.telefones = telefones;
 	}
-	
+
 	public List<Pedido> getPedidos() {
 		return pedidos;
 	}
@@ -140,5 +140,5 @@ public class Cliente implements Serializable {
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
-	}	
+	}
 }
