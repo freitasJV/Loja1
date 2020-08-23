@@ -3,7 +3,7 @@ package com.josevitor.loja.domain.enums;
 public enum TipoCliente {
 	
 	PESSOAFISICA(1, "Pessoa Física"),
-	PESSAOJURIDICA(2, "Pessoa Jurídica");
+	PESSOAJURIDICA(2, "Pessoa Jurídica");
 	
 	private int cod;
 	private String descricao;
